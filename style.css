@@ -62,6 +62,7 @@ a {
     border-top: 1px solid black;
     border-radius: 15%;
     padding: 10px;
+    text-decoration: none;
 }
 
 img {
