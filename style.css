@@ -40,6 +40,21 @@ li {
     color: rgba(245, 222, 179, 0.884);
 }
 
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+#menu {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#menu li{
+    display: inline;
+    list-style: none;
+}
+
 a {
     background-color: rgba(107, 99, 134, 0.61);
     color: wheat;
