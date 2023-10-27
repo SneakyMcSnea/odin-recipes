@@ -1,5 +1,56 @@
 * {
-    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
+body {
+    background-color: rgba(28, 14, 80, 0.747);
+}
+
+h1 {
+    background-color: rgba(10, 7, 19, 0.336);
+    color: rgb(248, 247, 186);
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+h2 {
+    background-color: rgba(107, 99, 134, 0.61);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+p {
+    color: rgba(245, 222, 179, 0.884);
+}
+
+li {
+    margin: 30px;
+}
+
+.ingredients {
+    color: rgba(245, 222, 179, 0.884);
+}
+
+.steps {
+    color: rgba(245, 222, 179, 0.884);
+}
+
+a {
+    background-color: rgba(107, 99, 134, 0.61);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: wheat;
+    padding: 10px;
+}
+
+img {
+    border-radius: 10%;
+    filter: grayscale(25%)
+}
+
+img.dog:hover{
+    transform: scaleX(-1);
+}
